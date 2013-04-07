@@ -46,7 +46,7 @@ end
 # Using MTNSat Hubot
 checkout_location = ::File.join(Chef::Config[:file_cache_path], "hubot")
 git checkout_location do
-  repository "git://github.com/github/hubot.git"
+  repository "git://github.com/MTNSatelliteComm/hubot.git"
   revision "v#{node['hubot']['version']}"
   action :checkout
   notifies :run, "execute[build and install hubot]", :immediately
