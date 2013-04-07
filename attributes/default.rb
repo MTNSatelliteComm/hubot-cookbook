@@ -17,7 +17,8 @@
 # limitations under the License.
 #
 
-default['hubot']['version'] = "2.4.6"
+default['hubot']['version'] = "master"
+default['hubot']['repository'] = "git://github.com/MTNSatelliteComm/hubot.git"
 default['hubot']['scripts_version'] = "2.4.1"
 default['hubot']['install_dir'] = "/opt/hubot"
 default['hubot']['user'] = "hubot"
